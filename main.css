@@ -7,6 +7,9 @@
     color: aquamarine;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    
+    
 }
 .servicios {
     color: brown;
@@ -23,5 +26,41 @@
 }
 .servicios3{
     text-decoration: none;
+    color: rgb(56, 47, 36);
+    
 
+}
+.general{
+    
+    background-color: bisque;
+    margin: 0%;
+    padding: 0px;
+    background-image: url(estadio-santiago-bernabeu_104.webp) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+   
+    
+    
+    
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    background-image: url(insta.ico);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease ;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.2) rotate(120dem) ;
+        background-image: url(/nivea.png);
+        
+    }
+    
+    
+}
+a:hover{
+    color: aqua;
 }
