@@ -1,0 +1,27 @@
+.horizontal {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+    background-color: rgb(241, 235, 235);
+    color: aquamarine;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.servicios {
+    color: brown;
+    text-decoration: none;
+}
+
+.servicios4 {
+  color: rgb(173, 153, 153);
+  text-decoration: none;
+}
+.servicios2{
+    text-decoration: none;
+
+}
+.servicios3{
+    text-decoration: none;
+
+}
